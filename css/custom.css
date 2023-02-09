@@ -14,3 +14,30 @@
 .lang-dropdown-checkbox:checked ~ .lang-dropdown {
     display: block;
 }
+
+
+.spacer, .spacer-en {
+    height: 40px;
+}
+
+.spacer-title, .spacer-en-title {
+    height: 70px;
+}
+
+@media (max-width: 456px) {
+    .spacer {
+        height: 80px;
+    }
+    .spacer-title {
+        height: 120px;
+    }
+}
+
+@media (max-width: 444px) {
+    .spacer-en {
+        height: 80px;
+    }
+    .spacer-en-title {
+        height: 120px;
+    }
+}
